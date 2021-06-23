@@ -8,3 +8,4 @@ Repository for the HerHackathon 2021
 - At the end, teams can submit pull requests back to this repo, where appropriate. Please note that we ask you to sign our [Contributor License Agreement](https://github.com/Daimler/daimler-foss/blob/master/cla/2019-09-11_Daimler_FOSS_CLA_DaimlerTSS.pdf) and then submit to [Daimler TSS CLA team](mailto:CLA-TSS@daimler.com) so that we can accept your contribution.
 
 
+Don't know where to get started? Click [here](https://github.com/Daimler/GreenCodeEvaluator/blob/main/HerHackathon-Challenge.pdf).
