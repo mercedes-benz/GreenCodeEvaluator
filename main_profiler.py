@@ -35,6 +35,10 @@ if __name__ == "__main__":
     result_path = new_path.rsplit('/', 1)[0]+"/result/"
     os.system("mkdir "+result_path)
 
+    # 1. Check unused imports, variables and functions (Used 'vulture' package)
+    print('vulture ' + file_path + " > "+result_path+"unused.txt")
+    os.system('vulture ' + file_path + " > "+result_path+"unused.txt")
+
     # remove old mprofile and cprof results
     os.system('rm '+result_path+'mprofile*')
     os.system('rm '+result_path+"cprof.txt")
