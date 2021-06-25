@@ -36,3 +36,7 @@ if __name__ == "__main__":
     # launch mprof commands
     os.system('mprof run '+new_path.rsplit('/', 1)[1])
     os.system('mprof plot')
+
+    # remove file added
+    os.system('rm mprofile*')
+    os.system('rm '+new_path)
