@@ -1,0 +1,32 @@
+[build-system]
+requires = ["poetry>=1.1.4"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "green_code_evaluator"
+version = "1.0.0"
+description = "A command line tool to generate code analysis reports"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Operating System :: OS Independent",
+]
+keywords = ["green code evaluator"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/martasls/GreenCodeEvaluator"
+authors = []
+include = [
+    "LICENSE",
+    "README.md",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+guppy3 = "^3.1.0"
+pyfiglet = "^0.8.post1"
+click = "^8.0.1"
+numpy = "^1.21.0"
+memory-profiler = "^0.58.0"
+
+[tool.poetry.scripts]
+gcode = "green_code_evaluator:run"
