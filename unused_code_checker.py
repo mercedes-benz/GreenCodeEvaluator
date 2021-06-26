@@ -6,7 +6,7 @@
 import os
 
 def add_profiler(file_path) :
-    new_path = file_path+"_with_descriptors.py"
+    new_path = file_path.rsplit('.', 1)[0]+"_with_descriptors.py"
     fin = open(file_path, "r")
     fout = open(new_path, "w")
 
