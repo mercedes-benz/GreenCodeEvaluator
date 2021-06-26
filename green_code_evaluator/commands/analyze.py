@@ -18,7 +18,8 @@ logging.basicConfig(level = logging.INFO)
 
 # function to change the input code with descriptors
 def add_descriptors(file_path: str):
-    new_path = file_path.rsplit('.', 1)[0]+"_with_descriptors.py"
+
+    new_path = file_path.rsplit(".", 1)[0]+"_with_descriptors.py"
     # input file
     fin = open(file_path, "rt")
     # output file to write the result to
@@ -38,10 +39,16 @@ def add_descriptors(file_path: str):
     return new_path
 
 
+def _purge(dir: str, pattern: str):
+    for f in os.listdir(dir):
+        if re.search(pattern, f):
+            os.remove(os.path.join(dir, f))
+
+
 def _analyze(input_path: str, results_directory_path: str):
     new_path = add_descriptors(input_path)
 
-    print_message(f"Starting analysis for {input_path}")
+    print_message(f"Starting analysis for {input_path}\n")
     # write CPU usage at the beginning
     cpu_file = open(os.path.join(results_directory_path, "cpu_usage.txt"), "a")
 
@@ -53,6 +60,9 @@ def _analyze(input_path: str, results_directory_path: str):
     # Check unused imports, variables and functions (Used 'vulture' package)
     os.system("vulture " + input_path + " > " + os.path.join(results_directory_path, "unused.txt"))
     unused_out_to_json(os.path.join(results_directory_path, "unused.txt"), results_directory_path)
+
+    # Line-by-line memory usage
+    # os.system("python -m memory_profiler " + new_path)
 
     # launch mprof commands
     terminal_out = os.popen("mprof run " + new_path).read()
@@ -69,15 +79,15 @@ def _analyze(input_path: str, results_directory_path: str):
     cpu_file.write("CPU percentage used at the end: " + str(end_cpu) + "\n")
     cpuusagetxt_json(os.path.join(results_directory_path, "cpu_usage.txt"), results_directory_path)
 
-    print_message(f"Finished analysis for {input_path}. Results are stored in {results_directory_path} ✨")
+    print_message(f"Finished analysis for {input_path}. Results are stored in {results_directory_path} ✨\n")
     cpu_file.close()
     # remove file added
-    os.system("rm mprofile*")
-    os.system("rm " + new_path)
+    _purge(".", "mprofile*")
+    os.remove(new_path)
     # print(os.path.join(results_directory_path, "cprof.txt"))
-    os.system("rm " + os.path.join(results_directory_path, "cprof.txt"))
-    os.system("rm " + os.path.join(results_directory_path, "unused.txt"))
-    os.system("rm " + os.path.join(results_directory_path, "cpu_usage.txt"))
+    os.remove(os.path.join(results_directory_path, "cprof.txt"))
+    os.remove(os.path.join(results_directory_path, "unused.txt"))
+    os.remove(os.path.join(results_directory_path, "cpu_usage.txt"))
 
 
 @click.command(name="analyze", help="Analyzes some python code")
