@@ -1,5 +1,5 @@
 # GreenCodeEvaluator
-
+<img align="right" width="200" height="200" alt="bertha" src="bertha.png"></img>
 This is our proposal for Mercedes' HerHackaton Challenge. 
 
 ## Installation
