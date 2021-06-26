@@ -1,6 +1,5 @@
 import yappi
-import code_examples.simplefor as test
-import os
+import experiments.cristina.code_examples.simplefor as test
 
 yappi.set_clock_type("cpu") # Use set_clock_type("wall") for wall time
 yappi.start()
