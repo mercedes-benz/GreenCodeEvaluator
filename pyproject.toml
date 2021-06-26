@@ -7,7 +7,7 @@ name = "green_code_evaluator"
 version = "1.0.0"
 description = "A command line tool to generate code analysis reports"
 classifiers = [
-    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
     "Operating System :: OS Independent",
 ]
 keywords = ["green code evaluator"]
@@ -28,6 +28,7 @@ click = "^8.0.1"
 numpy = "^1.21.0"
 memory-profiler = "^0.58.0"
 vulture = "^2.3"
+matplotlib = "^3.4.2"
 
 [tool.poetry.scripts]
 gcode = "green_code_evaluator:run"
