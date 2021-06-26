@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.6.0",
     "jQuery": "^1.7.4",
+    "jquery": "^3.6.0",
     "popper": "^1.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",

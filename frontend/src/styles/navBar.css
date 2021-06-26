@@ -13,3 +13,20 @@
  .nav-item:hover {
     border: none;
  }
+
+ .logo-mercedes{
+    background-image: url('../img/logos-MB.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+ }
+
