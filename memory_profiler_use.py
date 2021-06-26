@@ -5,10 +5,10 @@ Launch this modified code with mprof
 Plot the memory usage (or read the generated data file)
 """
 import os
-
+from jsonutils import cprotxt_to_json, terminal_out_to_json
 # function to change the input code with descriptors
 def add_descriptors(path) :
-    new_path = file_path.rsplit('.', 1)[0]+"_with_descriptors.py"
+    new_path = path.rsplit('.', 1)[0]+"_with_descriptors.py"
     #input file
     fin = open(path, "rt")
     #output file to write the result to
@@ -37,6 +37,10 @@ if __name__ == "__main__":
     # launch mprof commands
     os.system('mprof run '+new_path.rsplit('/', 1)[1])
 
+    #convert terminal out to json
+    # out = os.popen('mprof run '+new_path.rsplit('\\', 1)[1]).read()
+    # terminal_out_to_json(out)
+
     # launch cprof commands (cpu time profiling) sorted by time 
     os.system('python -m cProfile -s time '+file_path+"> "+new_path.rsplit('/', 1)[0]+"/cprof.txt")
 
@@ -55,3 +59,5 @@ if __name__ == "__main__":
     os.system('rm mprofile*')
     os.system('rm '+new_path)
     os.system('rm '+new_path.rsplit('/', 1)[0]+"/cprof.txt")
+
+    # cprotxt_to_json(r"GreenCodeEvaluator\result\cprof.txt")
