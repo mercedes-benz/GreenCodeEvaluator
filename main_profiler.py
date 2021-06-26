@@ -5,6 +5,7 @@ Profile its CPU, GPU
 Store useful results in a result/ subfolder (for front end)
 """
 import os
+import psutil
 
 # function to change the input code with descriptors
 def add_descriptors(path) :
@@ -26,7 +27,6 @@ def add_descriptors(path) :
 if __name__ == "__main__":
     # can also be given by the front end interface for example
     file_path = '/home/romaissa/Documents/HerHackathon/GreenCodeEvaluator/empty_bad_functions.py'
-    # file_path = '/home/romaissa/Documents/HerHackathon/GreenCodeEvaluator/python_code/Scrape_HackerNews.py'
 
     # get updated code file
     new_path = add_descriptors(file_path)
@@ -35,12 +35,21 @@ if __name__ == "__main__":
     result_path = new_path.rsplit('/', 1)[0]+"/result/"
     os.system("mkdir "+result_path)
 
-    # 1. Check unused imports, variables and functions (Used 'vulture' package)
-    print('vulture ' + file_path + " > "+result_path+"unused.txt")
+    # remove old CPU text files before creating another
+    os.system('rm '+result_path+"cpu_usage.txt")
+
+    # write CPU usage at the beginning 
+    cpu_file = open(result_path+"cpu_usage.txt","a")
+
+    # measure cpu at beginning
+    cpu_beginning = psutil.cpu_percent(1.0) 
+    print('CPU percentage used beginning : ', cpu_beginning)
+    cpu_file.write('CPU percentage used at the beginning : '+str(cpu_beginning)+'\n')
+
+    # Check unused imports, variables and functions (Used 'vulture' package)
     os.system('vulture ' + file_path + " > "+result_path+"unused.txt")
 
     # remove old mprofile and cprof results
-    os.system('rm '+result_path+'mprofile*')
     os.system('rm '+result_path+"cprof.txt")
 
     #change directory 
@@ -63,6 +72,10 @@ if __name__ == "__main__":
             print(head)
 
     os.system('mprof plot -o '+result_path+"/memory_usage.png")
+
+    end_cpu = psutil.cpu_percent()
+    print('CPU percentage used end: ', end_cpu)
+    cpu_file.write('CPU percentage used at the end: '+str(end_cpu)+'\n')
 
     # remove file added, keep the profiles to front end 
     os.system('rm '+new_path)
