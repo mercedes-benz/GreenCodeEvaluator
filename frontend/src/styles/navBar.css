@@ -1,0 +1,15 @@
+.nav {
+    background-color: black;
+    border: none;
+    border-top: 1px solid whitesmoke;
+    
+}
+ .nav-item {
+    color: white;
+    font-weight: 800;
+    border: none;
+ }
+
+ .nav-item:hover {
+    border: none;
+ }
