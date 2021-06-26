@@ -37,12 +37,14 @@ def cprotxt_to_json(cprotxt_path: str, results_directory_path: str):
         if "ncalls" in line:
             reached_header = True
             header_list = line.split()
+            num_heads = len(header_list)
             continue
         if reached_header:
             vals = line.split()  # each row values
-            dictionary = dict(zip(header_list, vals))
-            out_dict.append(dictionary)
-
+            if len(vals):
+                vals[num_heads-1] = "".join(vals[num_heads-1:])
+                dictionary = dict(zip(header_list, vals[:num_heads]))
+                out_dict.append(dictionary)
     fin.close()
     with open(filepath_json, "w") as fp:
         json.dump(out_dict, fp, sort_keys=True, indent=4)

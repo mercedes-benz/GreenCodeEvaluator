@@ -50,12 +50,12 @@ def _analyze(input_path: str, results_directory_path: str):
 
     print_message(f"Starting analysis for {input_path}\n")
     # write CPU usage at the beginning
-    cpu_file = open(os.path.join(results_directory_path, "cpu_usage.txt"), "a")
 
     # measure cpu at beginning
     cpu_beginning = psutil.cpu_percent(1.0)
     # print(f"CPU percentage used at the beginning: {cpu_beginning}")
-    cpu_file.write("CPU percentage used at the beginning : " + str(cpu_beginning) + '\n')
+    with open(os.path.join(results_directory_path, "cpu_usage.txt"), "w") as f_ref:
+        f_ref.write("CPU percentage used at the beginning : " + str(cpu_beginning) + '\n')
 
     # Check unused imports, variables and functions (Used 'vulture' package)
     os.system("vulture " + input_path + " > " + os.path.join(results_directory_path, "unused.txt"))
@@ -72,15 +72,15 @@ def _analyze(input_path: str, results_directory_path: str):
     os.system("python -m cProfile -s time " + input_path + "> " + os.path.join(results_directory_path, "cprof.txt"))
     cprotxt_to_json(os.path.join(results_directory_path, "cprof.txt"), results_directory_path)
 
-    os.system('mprof plot -o ' + os.path.join(results_directory_path, "memory_usage.png"))
+    os.system("mprof plot -o " + os.path.join(results_directory_path, "memory_usage.png"))
 
     end_cpu = psutil.cpu_percent()
     # print(f"CPU percentage used at the end: {end_cpu}")
-    cpu_file.write("CPU percentage used at the end: " + str(end_cpu) + "\n")
+    with open(os.path.join(results_directory_path, "cpu_usage.txt"), "a") as f_ref:
+        f_ref.write("CPU percentage used at the end: " + str(end_cpu) + "\n")
     cpuusagetxt_json(os.path.join(results_directory_path, "cpu_usage.txt"), results_directory_path)
 
     print_message(f"Finished analysis for {input_path}. Results are stored in {results_directory_path} ✨\n")
-    cpu_file.close()
     # remove file added
     _purge(".", "mprofile*")
     os.remove(new_path)
