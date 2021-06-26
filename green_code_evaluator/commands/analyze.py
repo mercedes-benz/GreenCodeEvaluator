@@ -1,10 +1,14 @@
 import os
 import re
+import logging
 
 import click
 import psutil
 
 from green_code_evaluator.util.json_utils import terminal_out_to_json, cprotxt_to_json, unused_out_to_json
+from green_code_evaluator.util.cli import print_message
+
+logging.basicConfig(level = logging.INFO)
 
 
 # function to change the input code with descriptors
@@ -32,12 +36,13 @@ def add_descriptors(file_path: str):
 def _analyze(input_path: str, results_directory_path: str):
     new_path = add_descriptors(input_path)
 
+    print_message(f"Starting analysis for {input_path}")
     # write CPU usage at the beginning
     cpu_file = open(os.path.join(results_directory_path, "cpu_usage.txt"), "a")
 
     # measure cpu at beginning
     cpu_beginning = psutil.cpu_percent(1.0)
-    print(f"CPU percentage used at the beginning: {cpu_beginning}")
+    # print(f"CPU percentage used at the beginning: {cpu_beginning}")
     cpu_file.write("CPU percentage used at the beginning : " + str(cpu_beginning) + '\n')
 
     # Check unused imports, variables and functions (Used 'vulture' package)
@@ -55,14 +60,15 @@ def _analyze(input_path: str, results_directory_path: str):
     os.system('mprof plot -o ' + os.path.join(results_directory_path, "memory_usage.png"))
 
     end_cpu = psutil.cpu_percent()
-    print(f"CPU percentage used at the end: {end_cpu}")
+    # print(f"CPU percentage used at the end: {end_cpu}")
     cpu_file.write("CPU percentage used at the end: " + str(end_cpu) + "\n")
 
+    print_message(f"Finished analysis for {input_path}. Results are stored in {results_directory_path} ✨")
     cpu_file.close()
     # remove file added
     os.system("rm mprofile*")
     os.system("rm " + new_path)
-    print(os.path.join(results_directory_path, "cprof.txt"))
+    # print(os.path.join(results_directory_path, "cprof.txt"))
     os.system("rm " + os.path.join(results_directory_path, "cprof.txt"))
     os.system("rm " + os.path.join(results_directory_path, "unused.txt"))
 
@@ -84,11 +90,7 @@ def command(input_path: str, results_directory_path: str):
     if os.path.isfile(input_path):
         _analyze(input_path, results_directory_path)
     else:
-        for root, dirs, files in os.walk(input_path):
-            for file in files:
-                if file.endswith(".py"):
-                    file_path = os.path.join(root, file)
-                    _analyze(file_path, results_directory_path)
+        raise NotImplemented("The capability you're trying to use is not implemented.")
 
 
 if __name__ == "__main__":
