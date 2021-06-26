@@ -6,8 +6,9 @@ Plot the memory usage (or read the generated data file)
 """
 import os
 import platform
-from jsonutils import cprotxt_to_json, terminal_out_to_json
-from importresultutils import unused_out_to_json
+from experiments.praise.jsonutils import cprotxt_to_json
+
+
 # function to change the input code with descriptors
 def add_descriptors(path) :
     # unused_out_to_json(r'result\unused.json')

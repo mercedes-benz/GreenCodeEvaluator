@@ -9,7 +9,7 @@ def unused_out_to_json(txt_path, filepath_json=None):
     """
 
     if filepath_json is None:
-        filepath_json = 'result/unused.json'
+        filepath_json = '../romaissa/result/unused.json'
 
     #input file
     fin = open(txt_path, "rt")
