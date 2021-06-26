@@ -48,4 +48,4 @@ Example with bad_function.py
 mprof run bad_functions.py 
 mprof plot
 ```
-![Results](result_bad_func.png)
+![Results](experiments/romaissa/result/result_bad_func.png)
