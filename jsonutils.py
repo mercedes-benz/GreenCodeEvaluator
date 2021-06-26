@@ -9,7 +9,7 @@ def terminal_out_to_json(terminal_out, filepath_json=None):
     list_lines = terminal_out.split('\n')#getting outputs line by line
     out = dict(zip(range(len(list_lines)), list_lines))
     if filepath_json is None:
-        filepath_json = 'terminalout.json'
+        filepath_json = 'result/terminalout.json'
     with open(filepath_json+'', 'w') as outfile:
         json.dump(out, outfile, indent=4)
     return filepath_json
@@ -24,7 +24,7 @@ def cprotxt_to_json(cprotxt_path, filepath_json=None):
     """
 
     if filepath_json is None:
-        filepath_json = 'cprotxt.json'
+        filepath_json = 'result/cprotxt.json'
 
     #input file
     fin = open(cprotxt_path, "rt")
