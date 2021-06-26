@@ -1,5 +1,5 @@
 import React from 'react';
-import memoryImg from '../../public/memory_usage.png'
+import memoryImg from '../img/memory_usage.png'
 
 const Memory = () => {
     const title = 'Memory';

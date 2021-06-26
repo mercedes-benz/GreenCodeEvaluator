@@ -1,6 +1,7 @@
 import os
 import re
 import logging
+import shutil
 
 import click
 import psutil
@@ -92,6 +93,7 @@ def _analyze(input_path: str, results_directory_path: str):
     current_path = os.getcwd()
 
     frontend_path = os.path.dirname(results_directory_path)
+    shutil.move(os.path.join(results_directory_path, "memory_usage.png"), os.path.join(frontend_path, "src", "img"))
     os.chdir(frontend_path)
     os.system("npm install")
     os.chdir(current_path)
