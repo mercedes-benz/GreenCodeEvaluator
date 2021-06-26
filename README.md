@@ -18,6 +18,30 @@ gcode analyze /home/user/example.py /home/user/results
 The 'results' folder doesn't need to exist. If it doesn't, the tool will create it for you and populate it with the 
 output coming from the analysis.
 
+## Memory Profiling 
+
+See how memory is being used with the [memory-profiling](https://pypi.org/project/memory-profiler/) package. 
+
+```commandline
+pip install memory-profiling
+```
+
+- To check your file code_to_analyse, and then the corresponding plot, run on your terminal :
+```console
+mprof run code_to_analyse.py 
+mprof plot
+```
+
+
+Note : In order to have the corresponding functions appearing in the plot across time, '@profile' decorators are needed above each function definition. Read here for more info http://fa.bianp.net/blog/2014/plot-memory-usage-as-a-function-of-time/ 
+
+Example with bad_function.py 
+```console
+mprof run bad_functions.py 
+mprof plot
+```
+![Results](experiments/romaissa/result/result_bad_func.png)
+
 ----
 
 Repository for the HerHackathon 2021
@@ -30,22 +54,3 @@ Repository for the HerHackathon 2021
 
 
 Don't know where to get started? Click [here](https://github.com/Daimler/GreenCodeEvaluator/blob/main/HerHackathon-Challenge.pdf).
-
-
-## Memory Profiling 
-- Pip install memory-profiling https://pypi.org/project/memory-profiler/
-- To check your file code_to_analyse, and then the corresponding plot, run on your terminal :
-```console
-mprof run code_to_analyse.py 
-mprof plot
-```
-
-
-Note : In order to have the corresponding functions appearing in the plot accross time, '@profile' decorators are needed above each function definition. Read here for more info http://fa.bianp.net/blog/2014/plot-memory-usage-as-a-function-of-time/ 
-
-Example with bad_function.py 
-```console
-mprof run bad_functions.py 
-mprof plot
-```
-![Results](experiments/romaissa/result/result_bad_func.png)
