@@ -27,6 +27,7 @@ pyfiglet = "^0.8.post1"
 click = "^8.0.1"
 numpy = "^1.21.0"
 memory-profiler = "^0.58.0"
+vulture = "^2.3"
 
 [tool.poetry.scripts]
 gcode = "green_code_evaluator:run"
