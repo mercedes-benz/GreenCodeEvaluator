@@ -89,6 +89,10 @@ def _analyze(input_path: str, results_directory_path: str):
     os.remove(os.path.join(results_directory_path, "unused.txt"))
     os.remove(os.path.join(results_directory_path, "cpu_usage.txt"))
 
+    frontend_path = os.path.dirname(results_directory_path)
+
+    os.system(f"npm start --prefix {frontend_path}")
+
 
 @click.command(name="analyze", help="Analyzes some python code")
 @click.argument("input_path", nargs=1)

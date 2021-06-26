@@ -1,6 +1,5 @@
 {
     "unused_import": [
-        " matplotlib (90% confidence)",
         " os (90% confidence)"
     ]
 }
