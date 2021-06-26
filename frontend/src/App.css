@@ -1,3 +1,6 @@
+html, body {
+  height: 100%;
+}
 header {
   background-color: rgb(0, 0, 0);
   color: aliceblue;
@@ -48,7 +51,7 @@ body {
   height: 20%;
 }
 .carousel-container{
-  height: 500px;
+  height: 400px;
   background-color: rgb(196, 196, 196);
 }
 .imgContainer{
