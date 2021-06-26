@@ -51,3 +51,24 @@ def cprotxt_to_json(cprotxt_path, filepath_json=None):
     # with open('data.json', 'r') as fp:
     #     data = json.load(fp)
     return filepath_json
+
+def cpuusagetxt_json(cpupercenttxt, filepath_json=None):
+    if filepath_json is None:
+        filepath_json = 'result/cpu_usage.json'
+
+    #input file
+    fin = open(cpupercenttxt, "rt")
+
+    #output file to write the result to
+    out_dict = []
+
+     #for each line in the input file
+    for line in fin:
+        out_dict.append({"detail":line.split(":")[0], "value":line.split(":")[1].replace("\n","")})
+
+    fin.close()
+    with open(filepath_json, 'w') as fp:
+        json.dump(out_dict, fp, sort_keys=True, indent=4)
+
+    return filepath_json
+
