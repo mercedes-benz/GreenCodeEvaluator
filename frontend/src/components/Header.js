@@ -4,7 +4,7 @@ import '../styles/navBar.css'
 
 const Header = () => (
   <>
-  <header className='header'> 
+  <header className='nav-header'> 
   <div>              
                 <h2>Welcome to our Mercedes Benz challenge for HerHackathon event!</h2>
                 <h3>Green Code Evaluator</h3>
