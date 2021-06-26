@@ -3,13 +3,14 @@ header {
   color: aliceblue;
   padding: 20px;
 }
-body {
-  background-color: black;
-}
 
+body {
+  background-color: rgb(196, 196, 196);
+}
 .result-title{
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 20px;
   text-transform:uppercase;
   width: fit-content;
 }
@@ -24,6 +25,14 @@ body {
 .card-header{
   display: flex;
   justify-content: space-evenly;
+  
+  background-color: rgb(196, 196, 196);
+  }
+
+  .img-profile{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
   }
 .displayer {
   display: flex;
@@ -36,9 +45,12 @@ body {
 
 .imgHeader {
   width: 100%;
-  height: 10%;
+  height: 20%;
 }
-
+.carousel-container{
+  height: 500px;
+  background-color: rgb(196, 196, 196);
+}
 .imgContainer{
   width: 100%;
   height: 200px;

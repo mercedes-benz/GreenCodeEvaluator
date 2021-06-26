@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/esm/Button';
 import Card from 'react-bootstrap/Card'
 import Accordion from 'react-bootstrap/Accordion';
+import TeamMembers from './TeamMembers';
 import '../App.css'
 import '../styles/buttons.css'
 
@@ -21,7 +22,7 @@ const Presentation = () => {
                     </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
-                    <Card.Body>Hello! I'm the body</Card.Body>
+                        <TeamMembers />
                     </Accordion.Collapse>
                     <Accordion.Collapse eventKey="1">
                     <Card.Body>Create a solution that evaluates code according to metrics that indicate sustainable principles</Card.Body>
