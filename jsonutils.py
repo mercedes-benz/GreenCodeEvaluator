@@ -19,7 +19,7 @@ def cprotxt_to_json(cprotxt_path, filepath_json=None):
     """
 
     :param cprotxt: cprofile txt output
-    :param filepath_json:
+    :param filepath_json: output file path
     :return:
     """
 
