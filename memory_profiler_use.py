@@ -27,6 +27,7 @@ def add_descriptors(path) :
     return new_path
 
 if __name__ == "__main__":
+    cprotxt_to_json(r"D:\competitions\herhackathon\code\GreenCodeEvaluator\result\cprof.txt")
     # can also be given by the front end interface for example
     if platform.system() == "Windows":
         separator = '\\'
