@@ -5,7 +5,12 @@ import logging
 import click
 import psutil
 
-from green_code_evaluator.util.json_utils import terminal_out_to_json, cprotxt_to_json, unused_out_to_json
+from green_code_evaluator.util.json_utils import (
+    terminal_out_to_json,
+    cprotxt_to_json,
+    unused_out_to_json,
+    cpuusagetxt_json
+)
 from green_code_evaluator.util.cli import print_message
 
 logging.basicConfig(level = logging.INFO)
@@ -62,6 +67,7 @@ def _analyze(input_path: str, results_directory_path: str):
     end_cpu = psutil.cpu_percent()
     # print(f"CPU percentage used at the end: {end_cpu}")
     cpu_file.write("CPU percentage used at the end: " + str(end_cpu) + "\n")
+    cpuusagetxt_json(os.path.join(results_directory_path, "cpu_usage.txt"), results_directory_path)
 
     print_message(f"Finished analysis for {input_path}. Results are stored in {results_directory_path} ✨")
     cpu_file.close()
@@ -71,6 +77,7 @@ def _analyze(input_path: str, results_directory_path: str):
     # print(os.path.join(results_directory_path, "cprof.txt"))
     os.system("rm " + os.path.join(results_directory_path, "cprof.txt"))
     os.system("rm " + os.path.join(results_directory_path, "unused.txt"))
+    os.system("rm " + os.path.join(results_directory_path, "cpu_usage.txt"))
 
 
 @click.command(name="analyze", help="Analyzes some python code")

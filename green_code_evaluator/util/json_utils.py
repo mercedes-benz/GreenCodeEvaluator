@@ -67,13 +67,43 @@ def unused_out_to_json(txt_path: str, results_directory_path: str):
         "unused_import": []
     }
 
-    reached_header = False
     # for each line in the input file
     for line in fin:
         name = line.split("import")[-1]  # each row values
         name = name.replace("'", "")
         name = name.replace("\n", "")
         out_dict["unused_import"].append(name)
+
+    fin.close()
+    with open(filepath_json, "w") as fp:
+        json.dump(out_dict, fp, sort_keys=True, indent=4)
+
+    return filepath_json
+
+
+def cpuusagetxt_json(cpupercenttxt: str, results_directory_path: str):
+    """
+    :param cpupercenttxt: filepath of cpu percentage output text file
+    :param results_directory_path: path where to store the json
+    :return: filepath_json
+    """
+
+    filepath_json = os.path.join(results_directory_path, "cpu_usage.json")
+
+    # input file
+    fin = open(cpupercenttxt, "rt")
+
+    # output file to write the result to
+    out_dict = []
+
+    # for each line in the input file
+    for line in fin:
+        out_dict.append(
+            {
+                "detail": line.split(":")[0],
+                "value": line.split(":")[1].replace("\n", "")
+            }
+        )
 
     fin.close()
     with open(filepath_json, "w") as fp:
