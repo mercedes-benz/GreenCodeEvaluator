@@ -8,6 +8,18 @@ This is our proposal for Mercedes' HerHackaton Challenge.
 pip install git+https://github.com/martasls/GreenCodeEvaluator.git
 ```
 
+## Usage
+
+From your command line you can run:
+```commandline
+gcode analyze /home/user/example.py /home/user/results
+```
+
+The 'results' folder doesn't need to exist. If it doesn't, the tool will create it for you and populate it with the 
+output coming from the analysis.
+
+----
+
 Repository for the HerHackathon 2021
 
 
