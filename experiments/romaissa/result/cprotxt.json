@@ -1,7 +1,7 @@
 [
     {
         "cumtime": "2.003",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodtime.sleep}",
         "ncalls": "2",
         "percall": "1.001",
         "tottime": "2.003"
@@ -43,35 +43,35 @@
     },
     {
         "cumtime": "0.029",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.compile}",
         "ncalls": "316",
         "percall": "0.000",
         "tottime": "0.029"
     },
     {
         "cumtime": "0.027",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodmarshal.loads}",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.027"
     },
     {
         "cumtime": "0.020",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.create_dynamic}",
         "ncalls": "44/41",
         "percall": "0.000",
         "tottime": "0.015"
     },
     {
         "cumtime": "0.032",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.__build_class__}",
         "ncalls": "641/606",
         "percall": "0.000",
         "tottime": "0.012"
     },
     {
         "cumtime": "0.006",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.stat}",
         "ncalls": "1147",
         "percall": "0.000",
         "tottime": "0.006"
@@ -85,35 +85,35 @@
     },
     {
         "cumtime": "0.021",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1431(find_spec)",
         "ncalls": "575",
         "percall": "0.000",
         "tottime": "0.006"
     },
     {
         "cumtime": "3.479",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.exec}",
         "ncalls": "529/1",
         "percall": "3.479",
         "tottime": "0.005"
     },
     {
         "cumtime": "0.004",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodio.open_code}",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.004"
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'read'of'_io.BufferedReader'objects}",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.003"
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.getattr}",
         "ncalls": "5961",
         "percall": "0.000",
         "tottime": "0.003"
@@ -127,7 +127,7 @@
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.isinstance}",
         "ncalls": "14300",
         "percall": "0.000",
         "tottime": "0.003"
@@ -141,35 +141,35 @@
     },
     {
         "cumtime": "0.029",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:890(_find_spec)",
         "ncalls": "250",
         "percall": "0.000",
         "tottime": "0.003"
     },
     {
         "cumtime": "0.006",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:62(_path_join)",
         "ncalls": "2913",
         "percall": "0.000",
         "tottime": "0.003"
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:64(<listcomp>)",
         "ncalls": "2913",
         "percall": "0.000",
         "tottime": "0.002"
     },
     {
         "cumtime": "0.044",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:849(get_code)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.002"
     },
     {
         "cumtime": "0.002",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod__new__oftypeobjectat0x5604b3179fc0}",
         "ncalls": "1318",
         "percall": "0.000",
         "tottime": "0.002"
@@ -190,7 +190,7 @@
     },
     {
         "cumtime": "0.004",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:294(cache_from_source)",
         "ncalls": "380",
         "percall": "0.000",
         "tottime": "0.002"
@@ -204,14 +204,14 @@
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:157(_get_module_lock)",
         "ncalls": "603",
         "percall": "0.000",
         "tottime": "0.002"
     },
     {
         "cumtime": "0.009",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:969(get_data)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.002"
@@ -225,28 +225,28 @@
     },
     {
         "cumtime": "0.008",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.exec_dynamic}",
         "ncalls": "44/33",
         "percall": "0.000",
         "tottime": "0.002"
     },
     {
         "cumtime": "0.266",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:986(_find_and_load)",
         "ncalls": "258/2",
         "percall": "0.133",
         "tottime": "0.002"
     },
     {
         "cumtime": "0.024",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1302(_get_spec)",
         "ncalls": "246",
         "percall": "0.000",
         "tottime": "0.002"
     },
     {
         "cumtime": "0.002",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:78(acquire)",
         "ncalls": "603",
         "percall": "0.000",
         "tottime": "0.002"
@@ -274,7 +274,7 @@
     },
     {
         "cumtime": "0.002",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.len}",
         "ncalls": "10361/9837",
         "percall": "0.000",
         "tottime": "0.001"
@@ -302,42 +302,42 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'format'of'str'objects}",
         "ncalls": "696",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.012",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'join'of'str'objects}",
         "ncalls": "3682/3513",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.002",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:103(release)",
         "ncalls": "603",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.265",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:650(_load_unlocked)",
         "ncalls": "239/2",
         "percall": "0.133",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.230",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.__import__}",
         "ncalls": "370/19",
         "percall": "0.012",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.006",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:477(_init_module_attrs)",
         "ncalls": "239",
         "percall": "0.000",
         "tottime": "0.001"
@@ -351,7 +351,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:222(_verbose_message)",
         "ncalls": "3119",
         "percall": "0.000",
         "tottime": "0.001"
@@ -365,7 +365,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.hasattr}",
         "ncalls": "2867",
         "percall": "0.000",
         "tottime": "0.001"
@@ -379,7 +379,7 @@
     },
     {
         "cumtime": "0.266",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:956(_find_and_load_unlocked)",
         "ncalls": "255/2",
         "percall": "0.133",
         "tottime": "0.001"
@@ -400,7 +400,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'append'of'list'objects}",
         "ncalls": "8123",
         "percall": "0.000",
         "tottime": "0.001"
@@ -421,7 +421,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'readlines'of'_io._IOBase'objects}",
         "ncalls": "1",
         "percall": "0.001",
         "tottime": "0.001"
@@ -435,7 +435,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:629(spec_from_file_location)",
         "ncalls": "234",
         "percall": "0.000",
         "tottime": "0.001"
@@ -449,28 +449,28 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'rstrip'of'str'objects}",
         "ncalls": "6209",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_abc._abc_subclasscheck}",
         "ncalls": "61/19",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.listdir}",
         "ncalls": "23",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'update'of'dict'objects}",
         "ncalls": "860",
         "percall": "0.000",
         "tottime": "0.001"
@@ -484,35 +484,35 @@
     },
     {
         "cumtime": "0.231",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:1017(_handle_fromlist)",
         "ncalls": "278/38",
         "percall": "0.006",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'rpartition'of'str'objects}",
         "ncalls": "2099",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.min}",
         "ncalls": "1939",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.setattr}",
         "ncalls": "2322",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.265",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:777(exec_module)",
         "ncalls": "190/2",
         "percall": "0.133",
         "tottime": "0.001"
@@ -547,42 +547,42 @@
     },
     {
         "cumtime": "0.028",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:578(_compile_bytecode)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_abc._abc_init}",
         "ncalls": "45",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.006",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:80(_path_stat)",
         "ncalls": "1117",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:493(_classify_pyc)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:194(_lock_unlock_module)",
         "ncalls": "345",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.027",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:549(module_from_spec)",
         "ncalls": "239/234",
         "percall": "0.000",
         "tottime": "0.001"
@@ -596,7 +596,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'strip'of'str'objects}",
         "ncalls": "2845",
         "percall": "0.000",
         "tottime": "0.001"
@@ -617,14 +617,14 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'split'of'str'objects}",
         "ncalls": "1971",
         "percall": "0.000",
         "tottime": "0.001"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:51(_unpack_uint32)",
         "ncalls": "570",
         "percall": "0.000",
         "tottime": "0.001"
@@ -638,21 +638,21 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1265(_path_importer_cache)",
         "ncalls": "665",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.002",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1426(_get_spec)",
         "ncalls": "234",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:424(_get_cached)",
         "ncalls": "234",
         "percall": "0.000",
         "tottime": "0.000"
@@ -673,14 +673,14 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:176(cb)",
         "ncalls": "260",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:68(_path_split)",
         "ncalls": "380",
         "percall": "0.000",
         "tottime": "0.000"
@@ -694,14 +694,14 @@
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:376(cached)",
         "ncalls": "424",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_posixsubprocess.fork_exec}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -736,21 +736,21 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:389(parent)",
         "ncalls": "493",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'get'of'dict'objects}",
         "ncalls": "1960",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.025",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1334(find_spec)",
         "ncalls": "246",
         "percall": "0.000",
         "tottime": "0.000"
@@ -764,28 +764,28 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:58(__init__)",
         "ncalls": "260",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'read'of'_io.TextIOWrapper'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.002",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:90(_path_is_mode_type)",
         "ncalls": "329",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.read}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -820,7 +820,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.acquire_lock}",
         "ncalls": "1607",
         "percall": "0.000",
         "tottime": "0.000"
@@ -834,7 +834,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp._fix_co_filename}",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
@@ -855,42 +855,42 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:867(__exit__)",
         "ncalls": "744",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.003",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:147(__enter__)",
         "ncalls": "258",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:456(_check_name_wrapper)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:526(_validate_timestamp_pyc)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.release_lock}",
         "ncalls": "1607",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:35(_new_module)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
@@ -904,7 +904,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_thread.get_ident}",
         "ncalls": "1222",
         "percall": "0.000",
         "tottime": "0.000"
@@ -932,7 +932,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:863(__enter__)",
         "ncalls": "744",
         "percall": "0.000",
         "tottime": "0.000"
@@ -953,7 +953,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'startswith'of'str'objects}",
         "ncalls": "1151",
         "percall": "0.000",
         "tottime": "0.000"
@@ -974,21 +974,21 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:342(__init__)",
         "ncalls": "251",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'match'of're.Pattern'objects}",
         "ncalls": "385",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.265",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:211(_call_with_frames_removed)",
         "ncalls": "367/2",
         "percall": "0.132",
         "tottime": "0.000"
@@ -1002,7 +1002,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'__reduce_ex__'of'object'objects}",
         "ncalls": "410",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1016,14 +1016,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'find'of'bytearray'objects}",
         "ncalls": "694",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.002",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:99(_path_isfile)",
         "ncalls": "306",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1058,7 +1058,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:151(__exit__)",
         "ncalls": "258",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1107,14 +1107,14 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1010(path_stats)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodfromkeys}",
         "ncalls": "144",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1163,21 +1163,21 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'endswith'of'str'objects}",
         "ncalls": "287",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.core._multiarray_umath.add_docstring}",
         "ncalls": "309",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenzipimport>:63(__init__)",
         "ncalls": "23",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1205,7 +1205,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:800(find_spec)",
         "ncalls": "246",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1219,7 +1219,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:939(__init__)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1261,7 +1261,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodfrom_bytes}",
         "ncalls": "571",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1282,7 +1282,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.ord}",
         "ncalls": "1336",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1303,14 +1303,14 @@
     },
     {
         "cumtime": "0.020",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1099(create_module)",
         "ncalls": "44/41",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'replace'of'str'objects}",
         "ncalls": "203",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1324,7 +1324,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_thread.allocate_lock}",
         "ncalls": "528",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1366,7 +1366,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:143(__init__)",
         "ncalls": "258",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1387,7 +1387,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1479(_fill_cache)",
         "ncalls": "23",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1408,7 +1408,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'extend'of'list'objects}",
         "ncalls": "269",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1443,7 +1443,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.array}",
         "ncalls": "106",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1471,7 +1471,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_sre.compile}",
         "ncalls": "86",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1492,7 +1492,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1252(_path_hooks)",
         "ncalls": "23",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1513,7 +1513,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'lstrip'of'str'objects}",
         "ncalls": "1082",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1534,7 +1534,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1394(__init__)",
         "ncalls": "23",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1548,7 +1548,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.create_builtin}",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1562,7 +1562,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.is_frozen}",
         "ncalls": "246",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1576,7 +1576,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:725(find_spec)",
         "ncalls": "250",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1660,7 +1660,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.fspath}",
         "ncalls": "657",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1688,7 +1688,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'split'of're.Pattern'objects}",
         "ncalls": "24",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1730,7 +1730,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'pop'of'dict'objects}",
         "ncalls": "270",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1744,21 +1744,21 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.any}",
         "ncalls": "143",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:40(_relax_case)",
         "ncalls": "575",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.is_builtin}",
         "ncalls": "94",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1786,7 +1786,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.repr}",
         "ncalls": "113",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1800,7 +1800,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{function",
+        "filename:lineno(function)": "{functionSeedSequence.generate_stateat0x7fedea70aee0}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1849,7 +1849,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.issubclass}",
         "ncalls": "534",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1884,7 +1884,7 @@
     },
     {
         "cumtime": "0.008",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1107(exec_module)",
         "ncalls": "44/33",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1954,7 +1954,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodio.open}",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -1996,7 +1996,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'expandtabs'of'str'objects}",
         "ncalls": "76",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2010,7 +2010,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.globals}",
         "ncalls": "378",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2031,7 +2031,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{function",
+        "filename:lineno(function)": "{functionRandom.seedat0x7fedf6f2f310}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2066,7 +2066,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.sorted}",
         "ncalls": "8",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2143,7 +2143,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'sub'of're.Pattern'objects}",
         "ncalls": "15",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2213,7 +2213,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.chr}",
         "ncalls": "394",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2255,14 +2255,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_codecs.utf_8_decode}",
         "ncalls": "48",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1520(path_hook_for_FileFinder)",
         "ncalls": "23",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2332,7 +2332,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'lower'of'str'objects}",
         "ncalls": "457",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2381,7 +2381,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.eval}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2402,7 +2402,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'add'of'set'objects}",
         "ncalls": "364",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2423,7 +2423,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{function",
+        "filename:lineno(function)": "{functionRcParams.__getitem__at0x7fede3f669d0}",
         "ncalls": "622",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2493,7 +2493,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'randint'of'numpy.random.mtrand.RandomState'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2528,7 +2528,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:397(has_location)",
         "ncalls": "239",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2563,14 +2563,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.waitpid}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'translate'of'str'objects}",
         "ncalls": "97",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2619,7 +2619,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.all}",
         "ncalls": "112",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2633,7 +2633,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodsys.intern}",
         "ncalls": "148",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2647,7 +2647,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'get'of'mappingproxy'objects}",
         "ncalls": "122",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2710,21 +2710,21 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'sort'of'list'objects}",
         "ncalls": "7",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_ctypes.POINTER}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.sum}",
         "ncalls": "44",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2745,7 +2745,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'translate'of'bytearray'objects}",
         "ncalls": "55",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2801,14 +2801,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:964(get_filename)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_abc._abc_instancecheck}",
         "ncalls": "89",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2843,7 +2843,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'isidentifier'of'str'objects}",
         "ncalls": "198",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2857,7 +2857,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'items'of'dict'objects}",
         "ncalls": "196",
         "percall": "0.000",
         "tottime": "0.000"
@@ -2948,7 +2948,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'copy'of'numpy.ndarray'objects}",
         "ncalls": "60",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3046,7 +3046,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1400(<genexpr>)",
         "ncalls": "184",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3067,7 +3067,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.vars}",
         "ncalls": "228",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3116,7 +3116,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:774(create_module)",
         "ncalls": "190",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3270,7 +3270,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.dir}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3312,7 +3312,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_abc._abc_register}",
         "ncalls": "13",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3403,7 +3403,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'__contains__'of'frozenset'objects}",
         "ncalls": "117",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3431,7 +3431,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:1088(__init__)",
         "ncalls": "44",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3613,7 +3613,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'findall'of're.Pattern'objects}",
         "ncalls": "5",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3683,7 +3683,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.abs}",
         "ncalls": "96",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3718,7 +3718,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'remove'of'list'objects}",
         "ncalls": "11",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3739,7 +3739,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.max}",
         "ncalls": "90",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3760,7 +3760,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'isupper'of'str'objects}",
         "ncalls": "76",
         "percall": "0.000",
         "tottime": "0.000"
@@ -3837,7 +3837,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'rfind'of'str'objects}",
         "ncalls": "13",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4012,7 +4012,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.divmod}",
         "ncalls": "60",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4033,7 +4033,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap_external>:104(_path_isdir)",
         "ncalls": "23",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4061,7 +4061,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_struct.calcsize}",
         "ncalls": "18",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4306,7 +4306,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'pop'of'list'objects}",
         "ncalls": "98",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4376,7 +4376,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_warnings.warn}",
         "ncalls": "6",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4404,14 +4404,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'close'of'_io.TextIOWrapper'objects}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.next}",
         "ncalls": "32",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4530,7 +4530,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'setter'of'property'objects}",
         "ncalls": "40",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4579,7 +4579,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.close}",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4635,7 +4635,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.core._multiarray_umath.implement_array_function}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4677,7 +4677,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_sre.unicode_iscased}",
         "ncalls": "117",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4691,7 +4691,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodsys._getframe}",
         "ncalls": "51",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4712,14 +4712,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:406(spec_from_loader)",
         "ncalls": "5",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.seterrobj}",
         "ncalls": "9",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4796,7 +4796,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.print}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4908,14 +4908,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'setdefault'of'dict'objects}",
         "ncalls": "46",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.uname}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -4964,7 +4964,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.pipe}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5055,7 +5055,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'encode'of'str'objects}",
         "ncalls": "33",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5279,7 +5279,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.round}",
         "ncalls": "12",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5391,7 +5391,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_sre.unicode_tolower}",
         "ncalls": "108",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5419,7 +5419,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.iter}",
         "ncalls": "47",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5440,7 +5440,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'items'of'mappingproxy'objects}",
         "ncalls": "36",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5629,14 +5629,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodmath.exp}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'dot'of'numpy.ndarray'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5685,7 +5685,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'group'of're.Match'objects}",
         "ncalls": "22",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5748,7 +5748,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.mkdir}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5783,7 +5783,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.callable}",
         "ncalls": "38",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5902,7 +5902,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.open}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -5916,7 +5916,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'tolist'of'memoryview'objects}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6007,7 +6007,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:232(_requires_builtin_wrapper)",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6147,7 +6147,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'splitlines'of'str'objects}",
         "ncalls": "6",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6203,7 +6203,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.geterrobj}",
         "ncalls": "18",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6287,7 +6287,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:746(create_module)",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6322,7 +6322,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.putenv}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6455,7 +6455,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'values'of'mappingproxy'objects}",
         "ncalls": "15",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6476,7 +6476,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_locale.nl_langinfo}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6490,7 +6490,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'insert'of'list'objects}",
         "ncalls": "16",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6553,7 +6553,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_ctypes.sizeof}",
         "ncalls": "38",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6574,7 +6574,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.unsetenv}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6693,7 +6693,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'readline'of'_io.BufferedReader'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6728,7 +6728,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'rsplit'of'str'objects}",
         "ncalls": "21",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6812,7 +6812,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.id}",
         "ncalls": "29",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6868,7 +6868,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'reverse'of'list'objects}",
         "ncalls": "31",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6903,7 +6903,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'upper'of'str'objects}",
         "ncalls": "42",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6931,7 +6931,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:937(_sanity_check)",
         "ncalls": "5",
         "percall": "0.000",
         "tottime": "0.000"
@@ -6945,7 +6945,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'view'of'numpy.ndarray'objects}",
         "ncalls": "4/3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7001,7 +7001,7 @@
     },
     {
         "cumtime": "0.001",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:1002(_gcd_import)",
         "ncalls": "5",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7057,7 +7057,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.access}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7085,7 +7085,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'end'of're.Match'objects}",
         "ncalls": "29",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7099,7 +7099,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<__array_function__",
+        "filename:lineno(function)": "<__array_function__internals>:2(concatenate)",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7155,7 +7155,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'acquire'of'_thread.RLock'objects}",
         "ncalls": "9",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7169,7 +7169,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.zeros}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7232,14 +7232,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<__array_function__",
+        "filename:lineno(function)": "<__array_function__internals>:2(<module>)",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.register_at_fork}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7267,7 +7267,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.empty}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7351,7 +7351,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodtime.localtime}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7365,7 +7365,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'mro'of'type'objects}",
         "ncalls": "8",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7393,7 +7393,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_hashlib.openssl_sha1}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7512,7 +7512,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodsys.getrecursionlimit}",
         "ncalls": "14",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7547,7 +7547,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:754(exec_module)",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7561,14 +7561,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.urandom}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'values'of'dict'objects}",
         "ncalls": "22",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7589,7 +7589,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'startswith'of'bytes'objects}",
         "ncalls": "14",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7603,7 +7603,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'groupdict'of're.Match'objects}",
         "ncalls": "21",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7869,7 +7869,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'union'of'set'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7897,7 +7897,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'search'of're.Pattern'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -7960,7 +7960,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'cast'of'memoryview'objects}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8401,7 +8401,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'groups'of're.Match'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8436,7 +8436,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_ctypes.dlopen}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8478,7 +8478,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'append'of'collections.deque'objects}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8492,7 +8492,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_warnings._filters_mutated}",
         "ncalls": "16",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8513,7 +8513,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'view'of'numpy.generic'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8625,7 +8625,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'clear'of'dict'objects}",
         "ncalls": "14",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8730,7 +8730,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'endswith'of'bytes'objects}",
         "ncalls": "13",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8758,7 +8758,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_imp.exec_builtin}",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8821,7 +8821,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'release'of'_thread.RLock'objects}",
         "ncalls": "9",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8856,7 +8856,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'copy'of'mappingproxy'objects}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8898,7 +8898,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_codecs.lookup}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -8996,7 +8996,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'discard'of'set'objects}",
         "ncalls": "15",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9017,7 +9017,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<__array_function__",
+        "filename:lineno(function)": "<__array_function__internals>:2(copyto)",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9150,7 +9150,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodutcfromtimestamp}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9164,7 +9164,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'decode'of'bytes'objects}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9423,7 +9423,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'find'of'str'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9465,7 +9465,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodmath.log}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9584,14 +9584,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodbuiltins.delattr}",
         "ncalls": "5",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_hashlib.openssl_md5}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9675,7 +9675,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodmaketrans}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9717,7 +9717,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.confstr}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9731,14 +9731,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'count'of'list'objects}",
         "ncalls": "5",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.core._multiarray_umath.set_typeDict}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9857,7 +9857,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'keys'of'dict'objects}",
         "ncalls": "7",
         "percall": "0.000",
         "tottime": "0.000"
@@ -9955,7 +9955,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'acquire'of'_thread.lock'objects}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -10004,7 +10004,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_functools.reduce}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -10088,7 +10088,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'bit_length'of'int'objects}",
         "ncalls": "10",
         "percall": "0.000",
         "tottime": "0.000"
@@ -10158,7 +10158,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_thread.get_native_id}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -10277,7 +10277,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'update'of'set'objects}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -10585,7 +10585,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'toordinal'of'datetime.date'objects}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -10620,7 +10620,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'title'of'str'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -10914,7 +10914,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodatexit.register}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11152,7 +11152,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodsys.exc_info}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11173,7 +11173,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "<frozen",
+        "filename:lineno(function)": "<frozenimportlib._bootstrap>:771(is_package)",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11439,7 +11439,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'index'of'str'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11467,14 +11467,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'rfind'of'bytes'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'seek'of'_io.BufferedReader'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11530,7 +11530,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'remove'of'set'objects}",
         "ncalls": "6",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11593,7 +11593,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_sre.ascii_iscased}",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11656,7 +11656,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_sre.ascii_tolower}",
         "ncalls": "4",
         "percall": "0.000",
         "tottime": "0.000"
@@ -11740,7 +11740,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'copy'of'list'objects}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12139,7 +12139,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'disable'of'_lsprof.Profiler'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12195,7 +12195,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_hashlib.openssl_sha224}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12223,7 +12223,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_stat.S_ISDIR}",
         "ncalls": "3",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12237,7 +12237,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodtime.time}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12258,7 +12258,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.core._multiarray_umath._set_madvise_hugepage}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12314,7 +12314,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_elementtree._set_factories}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12524,7 +12524,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_hashlib.openssl_sha256}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12594,7 +12594,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.WIFSIGNALED}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12636,14 +12636,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodnumpy.core._multiarray_umath._reload_guard}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_hashlib.openssl_sha384}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12762,7 +12762,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_thread._set_sentinel}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -12832,14 +12832,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.WEXITSTATUS}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'pop'of'collections.deque'objects}",
         "ncalls": "2",
         "percall": "0.000",
         "tottime": "0.000"
@@ -13021,7 +13021,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodmath.sqrt}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -13112,7 +13112,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethod_hashlib.openssl_sha512}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -13252,7 +13252,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodposix.WIFEXITED}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -13350,7 +13350,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{built-in",
+        "filename:lineno(function)": "{built-inmethodsys.audit}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -13371,14 +13371,14 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'__enter__'of'_thread.lock'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'items'of'collections.OrderedDict'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -13406,7 +13406,7 @@
     },
     {
         "cumtime": "0.000",
-        "filename:lineno(function)": "{method",
+        "filename:lineno(function)": "{method'__exit__'of'_thread.lock'objects}",
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
@@ -13431,7 +13431,5 @@
         "ncalls": "1",
         "percall": "0.000",
         "tottime": "0.000"
-    },
-    {},
-    {}
+    }
 ]

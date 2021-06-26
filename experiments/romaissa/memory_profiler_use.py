@@ -6,7 +6,7 @@ Plot the memory usage (or read the generated data file)
 """
 import os
 import platform
-from jsonutils import cprotxt_to_json, terminal_out_to_json, cpuusagetxt_json
+from jsonutils import cprotxt_to_json, terminal_out_to_json
 from importresultutils import unused_out_to_json
 # function to change the input code with descriptors
 def add_descriptors(path) :
@@ -28,6 +28,7 @@ def add_descriptors(path) :
     return new_path
 
 if __name__ == "__main__":
+    cprotxt_to_json(r"D:\competitions\herhackathon\code\GreenCodeEvaluator\result\cprof.txt")
     # can also be given by the front end interface for example
     if platform.system() == "Windows":
         separator = '\\'
