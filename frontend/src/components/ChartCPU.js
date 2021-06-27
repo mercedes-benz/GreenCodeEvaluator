@@ -31,8 +31,8 @@ const ChartCPU = () => {
     return (
         (data && data.length === 0 ? <div>Loading...</div> :
           <>
-                  <h2>Your System</h2>
-          <SysInfo/>
+                  {/* <h2>Your System</h2>
+          <SysInfo/> */}
           <h2 className='result-title'>{title}</h2>
           <div className='result-container'>
           <ListGroup className='result-container'>
