@@ -25,7 +25,7 @@ const Chart = () => {
           }).then (function(result) {
               const dataPoints = [];
               for (let index = 0; index < result.length; index++) {
-                  dataPoints.push({x:result[index].filename_lineno_function__ , y:result[index].tottime});
+                  dataPoints.push({x:result[index].filenamelinenofunction , y:result[index].tottime});
               }
                 setData(dataPoints);
           })

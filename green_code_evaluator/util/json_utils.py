@@ -52,10 +52,10 @@ def cprotxt_to_json(cprotxt_path: str, results_directory_path: str):
     for line in fin:
         if "ncalls" in line:
             reached_header = True
-            line.replace(":", "")
-            line.replace("\n", "")
-            line.replace("(", "")
-            line.replace(")", "")
+            line = line.replace(":", "")
+            line = line.replace("\n", "")
+            line = line.replace("(", "")
+            line = line.replace(")", "")
             header_list = line.split()
             num_heads = len(header_list)
             continue

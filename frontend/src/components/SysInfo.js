@@ -11,7 +11,7 @@ const SysInfo = () => {
     },[])
 
   const getData=()=>{
-      fetch('sysinfo.json'
+      fetch('sys_info.json'
       ,{
         headers : {
           'Content-Type': 'application/json',
