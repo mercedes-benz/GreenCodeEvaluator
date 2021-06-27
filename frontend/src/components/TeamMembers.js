@@ -60,7 +60,7 @@ const TeamMembers = () => {
            desc:
               "Graduating master's student in Computer Engineering. Recently, involved in application development and ML projects. Always interested to collaborate and support works on social significance!",
            photo:
-              "https://files.slack.com/files-pri/T023KHBQZAP-F026APT0D19/image.png",
+              "https://ca.slack-edge.com/T023KHBQZAP-U025EB2HS69-9d7d15b3e0b7-72",
            website: "https://rafaelalucas.com",
            email: "mailto:rafaelavlucas@gmail.com",
            linkedin: "https://www.linkedin.com/in/rafaelalucas/"
