@@ -23,10 +23,9 @@ const Chart = () => {
           .then(function(response){
             return response.json();
           }).then (function(result) {
-              console.log(result)
               const dataPoints = [];
-              for (let index = 0; index <= 10; index++) {
-                  dataPoints.push({x:result[index].filename_lineno_function__ , y:result[index].tottime});
+              for (let index = 0; index < result.length; index++) {
+                  dataPoints.push({x:result[index].filenamelinenofunction , y:result[index].tottime});
               }
                 setData(dataPoints);
           })
