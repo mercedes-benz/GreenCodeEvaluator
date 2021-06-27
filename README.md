@@ -2,7 +2,14 @@
 <img align="right" width="200" height="200" alt="bertha" src="bertha.png"></img>
 This is our proposal for Mercedes' HerHackaton Challenge. 
 
+## Requirements
+
+Python 3.8 and npm
+
 ## Installation
+
+For the frontend part you need to have npm installed so according to your operating system, please make sure you install it.
+
 
 ```commandline
 pip install git+https://github.com/martasls/GreenCodeEvaluator.git

@@ -31,7 +31,7 @@ const Chart = () => {
           })
       }
       console.log(data)
-      const title = 'total time mesure'
+      const title = 'total time measurement'
     return (
         (data && data.length === 0 ? <div>Loading...</div> :
             <>

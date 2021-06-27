@@ -6,7 +6,7 @@ const Header = () => (
   <>
   <header className='nav-header'> 
   <div>              
-                <h2>Welcome to our Mercedes Benz challenge for the HerHackethon event!</h2>
+                <h2>Welcome to our Mercedes Benz challenge for HerHackathon 2021!</h2>
                 <h3>Green Code Evaluator</h3>
                 </div> 
                 <div className='logo-mercedes'></div>
