@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import SysInfo from './SysInfo.js'
 
 const ChartCPU = () => {
     const [data, setData] = useState([]);
@@ -30,6 +31,8 @@ const ChartCPU = () => {
     return (
         (data && data.length === 0 ? <div>Loading...</div> :
           <>
+                  <h2>Your System</h2>
+          <SysInfo/>
           <h2 className='result-title'>{title}</h2>
           <div className='result-container'>
           <ListGroup className='result-container'>

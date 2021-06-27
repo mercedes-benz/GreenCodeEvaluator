@@ -9,7 +9,8 @@ from green_code_evaluator.util.json_utils import (
     terminal_out_to_json,
     cprotxt_to_json,
     unused_out_to_json,
-    cpuusagetxt_json
+    cpuusagetxt_json,
+    getSystemInfo
 )
 from green_code_evaluator.util.cli import print_message
 
@@ -46,6 +47,7 @@ def _purge(dir: str, pattern: str):
 
 
 def _analyze(input_path: str, results_directory_path: str):
+    getSystemInfo(results_directory_path)
     new_path = add_descriptors(input_path)
 
     print_message(f"Starting analysis for {input_path}\n")
