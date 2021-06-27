@@ -1,29 +1,21 @@
-import { useEffect, useState } from 'react';
-import CanvasJSReact from '../assets/canvasjs.react';
+import React, { useEffect, useState } from 'react';
+import ListGroup from 'react-bootstrap/ListGroup';
 import ProgressBar from 'react-bootstrap/ProgressBar';
-
-var React = require('react');
-var Component = React.Component;
-
-//var CanvasJSReact = require('./canvasjs.react');
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 const ChartCPU = () => {
     const [data, setData] = useState([]);
-    
+
     useEffect(()=>{
         getData();
-        
       },[])
 
     const getData=()=>{
         fetch('cpu.json'
         ,{
-          headers : { 
+          headers : {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
-           }
+          }
         }
         )
           .then(function(response){
@@ -34,18 +26,20 @@ const ChartCPU = () => {
           })
       }
       console.log(data)
-      const title = 'CPU mesure'
+      const title = 'CPU measurement'
     return (
         (data && data.length === 0 ? <div>Loading...</div> :
           <>
           <h2 className='result-title'>{title}</h2>
           <div className='result-container'>
+          <ListGroup className='result-container'>
             {(data.map((item) => 
-              (<>
-              <p>{item.detail}</p>
-              <ProgressBar now={item.value} />
-              </>)
-            ) )}
+                (<ListGroup.Item>
+                    <p>{item.detail}</p>
+              <ProgressBar now={item.value} label={`${item.value} %`}/>
+                </ListGroup.Item>)
+              ) )}
+          </ListGroup>
         </div>
         </>
             )

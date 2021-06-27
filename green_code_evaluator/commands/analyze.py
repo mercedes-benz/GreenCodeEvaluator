@@ -62,7 +62,7 @@ def _analyze(input_path: str, results_directory_path: str):
     unused_out_to_json(os.path.join(results_directory_path, "unused.txt"), results_directory_path)
 
     # Line-by-line memory usage
-    # os.system("python -m memory_profiler " + new_path)
+    # os.system("python -m memory_profiler " + new_path + " > " + os.path.join(results_directory_path, "mem_prof.txt"))
 
     # launch mprof commands
     terminal_out = os.popen("mprof run " + new_path).read()
@@ -88,6 +88,15 @@ def _analyze(input_path: str, results_directory_path: str):
     os.remove(os.path.join(results_directory_path, "cprof.txt"))
     os.remove(os.path.join(results_directory_path, "unused.txt"))
     os.remove(os.path.join(results_directory_path, "cpu_usage.txt"))
+
+    current_path = os.getcwd()
+
+    frontend_path = os.path.dirname(results_directory_path)
+    # shutil.move(os.path.join(results_directory_path, "memory_usage.png"), os.path.join(frontend_path, "src", "img"))
+    os.chdir(frontend_path)
+    os.system("npm install")
+    os.chdir(current_path)
+    os.system(f"npm start --prefix {frontend_path}")
 
 
 @click.command(name="analyze", help="Analyzes some python code")
