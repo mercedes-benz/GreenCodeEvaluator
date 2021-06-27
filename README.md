@@ -1,6 +1,6 @@
 # GreenCodeEvaluator
 <img align="right" width="200" height="200" alt="bertha" src="bertha.png"></img>
-This is our proposal for Mercedes' HerHackaton Challenge. 
+This is our proposal for Mercedes-Benz' HerHackaton 2021 Challenge. 
 
 ## Requirements
 
@@ -10,6 +10,7 @@ Python 3.8 and npm
 
 For the frontend part you need to have npm installed so according to your operating system, please make sure you install it.
 
+To install the Python package you can use pip:
 
 ```commandline
 pip install git+https://github.com/martasls/GreenCodeEvaluator.git
