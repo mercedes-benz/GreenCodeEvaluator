@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Memory = () => {
-    const title = 'Memory';
+    const title = 'Memory usage';
     return (
         <>
         <h2 className='result-title'>{title}</h2>

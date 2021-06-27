@@ -4,7 +4,7 @@ import profileImge from '../img/profile_picture/foto-perfil.jpg';
 import Card from 'react-bootstrap/esm/Card';
 
 const TeamMembers = () => {
-    const title = 'Memory';
+    const title = 'Team';
     var team = [
         {
             name: "Romaïssa",

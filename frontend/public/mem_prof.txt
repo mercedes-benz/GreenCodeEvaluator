@@ -1,0 +1,11 @@
+Filename: /home/marta/m-aces/bertha-benz/GreenCodeEvaluator/experiments/nupur/demo_with_descriptors.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    18   81.559 MiB   81.559 MiB           1   @profile
+    19                                         def bad_code():
+    20  249.438 MiB   -0.004 MiB          11       for i in range(10):
+    21  249.438 MiB   15.094 MiB          10           a = [1] * (10 ** 6)
+    22  249.438 MiB  152.777 MiB          10           b = [2] * (2 * 10 ** 7)
+
+

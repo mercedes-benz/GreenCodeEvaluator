@@ -62,7 +62,7 @@ def _analyze(input_path: str, results_directory_path: str):
     unused_out_to_json(os.path.join(results_directory_path, "unused.txt"), results_directory_path)
 
     # Line-by-line memory usage
-    # os.system("python -m memory_profiler " + new_path)
+    os.system("python -m memory_profiler " + new_path + " > " + os.path.join(results_directory_path, "mem_prof.txt"))
 
     # launch mprof commands
     terminal_out = os.popen("mprof run " + new_path).read()
