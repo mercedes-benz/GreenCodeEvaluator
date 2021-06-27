@@ -1,6 +1,7 @@
 import os
 import re
 import logging
+import shutil
 
 import click
 import psutil
@@ -14,11 +15,11 @@ from green_code_evaluator.util.json_utils import (
 )
 from green_code_evaluator.util.cli import print_message
 
-logging.basicConfig(level = logging.INFO)
+logging.basicConfig(level=logging.INFO)
+FRONTEND_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "frontend")
 
 
-# function to change the input code with descriptors
-def add_descriptors(file_path: str):
+def _add_descriptors(file_path: str):
 
     new_path = file_path.rsplit(".", 1)[0]+"_with_descriptors.py"
     # input file
@@ -40,6 +41,16 @@ def add_descriptors(file_path: str):
     return new_path
 
 
+def _copytree(src: str, dst: str, symlinks: bool = False, ignore: bool = None):
+    for item in os.listdir(src):
+        s = os.path.join(src, item)
+        d = os.path.join(dst, item)
+        if os.path.isdir(s):
+            shutil.copytree(s, d, symlinks, ignore)
+        else:
+            shutil.copy2(s, d)
+
+
 def _purge(dir: str, pattern: str):
     for f in os.listdir(dir):
         if re.search(pattern, f):
@@ -48,7 +59,7 @@ def _purge(dir: str, pattern: str):
 
 def _analyze(input_path: str, results_directory_path: str):
     getSystemInfo(results_directory_path)
-    new_path = add_descriptors(input_path)
+    new_path = _add_descriptors(input_path)
 
     print_message(f"Starting analysis for {input_path}\n")
     # write CPU usage at the beginning
@@ -93,12 +104,12 @@ def _analyze(input_path: str, results_directory_path: str):
 
     current_path = os.getcwd()
 
-    frontend_path = os.path.dirname(results_directory_path)
+    _copytree(results_directory_path, os.path.join(FRONTEND_PATH, "public"))
     # shutil.move(os.path.join(results_directory_path, "memory_usage.png"), os.path.join(frontend_path, "src", "img"))
-    os.chdir(frontend_path)
+    os.chdir(FRONTEND_PATH)
     os.system("npm install")
     os.chdir(current_path)
-    os.system(f"npm start --prefix {frontend_path}")
+    os.system(f"npm start --prefix {FRONTEND_PATH}")
 
 
 @click.command(name="analyze", help="Analyzes some python code")
