@@ -1,17 +1,5 @@
 {
     "unused_import": [
-        " np (90% confidence)",
-        " time (90% confidence)",
-        " matplotlib (90% confidence)",
-        " os (90% confidence)",
-        " json (90% confidence)",
-        " plt (90% confidence)",
-        " calendar (90% confidence)",
-        " itertools (90% confidence)",
-        "/home/marta/m-aces/bertha-benz/GreenCodeEvaluator/experiments/nupur/demo.py:12: unused function demo (60% confidence)",
-        "/home/marta/m-aces/bertha-benz/GreenCodeEvaluator/experiments/nupur/demo.py:15: unused variable df (60% confidence)",
-        "/home/marta/m-aces/bertha-benz/GreenCodeEvaluator/experiments/nupur/demo.py:18: unused variable i (60% confidence)",
-        "/home/marta/m-aces/bertha-benz/GreenCodeEvaluator/experiments/nupur/demo.py:19: unused variable a (60% confidence)",
-        "/home/marta/m-aces/bertha-benz/GreenCodeEvaluator/experiments/nupur/demo.py:20: unused variable b (60% confidence)"
+        " os (90% confidence)"
     ]
 }
