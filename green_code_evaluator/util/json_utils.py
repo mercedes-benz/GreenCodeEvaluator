@@ -1,6 +1,22 @@
 import os
 import json
+import platform,json,psutil,logging
 
+def getSystemInfo(results_directory_path):
+    filepath_json = os.path.join(results_directory_path, "sys_info.json")
+    try:
+        info={}
+        info['platform']=platform.system()
+        info['platform_release']=platform.release()
+        info['platform_version']=platform.version()
+        info['architecture']=platform.machine()
+        info['processor']=platform.processor()
+        info['ram']=str(round(psutil.virtual_memory().total / (1024.0 **3)))+" GB"
+        with open(filepath_json, 'w') as f:
+            json.dump(info, f)
+    except Exception as e:
+        logging.exception(e)
+    return filepath_json
 
 def terminal_out_to_json(terminal_out: str, results_directory_path: str):
     """
@@ -36,6 +52,10 @@ def cprotxt_to_json(cprotxt_path: str, results_directory_path: str):
     for line in fin:
         if "ncalls" in line:
             reached_header = True
+            line.replace(":", "")
+            line.replace("\n", "")
+            line.replace("(", "")
+            line.replace(")", "")
             header_list = line.split()
             num_heads = len(header_list)
             continue

@@ -10,7 +10,7 @@ const TeamMembers = () => {
             name: "Romaïssa",
             role: "UX Specialist",
             desc:
-               "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+               "Soon graduated as a Computer Sciences engineer, I am passionate about Data, ML and robotics! This Hackathon was a great way to meet and work with talented women from various backgrounds and learn from them!",
             photo:
                "https://ca.slack-edge.com/T023KHBQZAP-U025AK974RL-b1c5c6c43b93-512",
             website: "https://rafaelalucas.com",
@@ -34,7 +34,7 @@ const TeamMembers = () => {
            name: "Nupur Kulkarni",
            role: "Project Manager",
            desc:
-              "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+              "Recent Data Science graduate and Engineer with over 3 years of work experience. I am passionate about Data and AI and currently pursuing NLP.C",
            photo:
               "https://ca.slack-edge.com/T023KHBQZAP-U025PHTUWLC-81a24ed54301-512",
            website: "https://rafaelalucas.com",
@@ -46,7 +46,7 @@ const TeamMembers = () => {
            name: "Cristina Bulnes",
            role: "UX Specialist",
            desc:
-              "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+              "Full Stack Developer with aengineering background.Passionate about programming andeager to continue developingmyself as a software developer",
            photo:
               "https://ca.slack-edge.com/T023KHBQZAP-U0252L02LA3-ab3993591b43-512",
            website: "https://rafaelalucas.com",
@@ -58,9 +58,9 @@ const TeamMembers = () => {
            name: "Praise Thampi",
            role: "Front-End Developer",
            desc:
-              "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+              "Graduating master's student in Computer Engineering. Recently, involved in application development and ML projects. Always interested to collaborate and support works on social significance!",
            photo:
-              "https://ca.slack-edge.com/T023KHBQZAP-U02672RRCAC-c8b628e2eff1-512",
+              "https://ca.slack-edge.com/T023KHBQZAP-U025EB2HS69-9d7d15b3e0b7-72",
            website: "https://rafaelalucas.com",
            email: "mailto:rafaelavlucas@gmail.com",
            linkedin: "https://www.linkedin.com/in/rafaelalucas/"
@@ -70,7 +70,7 @@ const TeamMembers = () => {
            name: "Marta Seca",
            role: "Back-End Developer",
            desc:
-              "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+              "As a Data Scientist, I have mostly dealt with NLP tasks so to participate in this Hackathon and contribute to something different has been refreshing!",
            photo:
               "https://ca.slack-edge.com/T023KHBQZAP-U02672RRCAC-c8b628e2eff1-512",
            website: "https://rafaelalucas.com",
@@ -82,7 +82,7 @@ const TeamMembers = () => {
            name: "Lou Creemers",
            role: "Head of UI Design",
            desc:
-              "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+              "An Information Technology student passionated about anything backend related and equality in tech.",
            photo: 'https://ca.slack-edge.com/T023KHBQZAP-U025PHU4S8L-9675be4e4055-512',
            website: "https://rafaelalucas.com",
            email: "mailto:rafaelavlucas@gmail.com",
