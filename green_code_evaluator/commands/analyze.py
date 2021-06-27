@@ -118,7 +118,7 @@ def command(input_path: str, results_directory_path: str):
     if os.path.isfile(input_path):
         _analyze(input_path, results_directory_path)
     else:
-        raise NotImplemented("The capability you're trying to use is not implemented.")
+        raise NotImplementedError("The capability you're trying to use is not implemented.")
 
 
 if __name__ == "__main__":
