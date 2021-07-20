@@ -1,0 +1,25 @@
+.btn {
+    background-color:#001c5e;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #c43573;
+    color: #001c5e;
+    font-weight: 500;
+    border: none;
+}
+
+.btn:focus {
+    background-color: #c43573;
+    color: #001c5e;
+    box-shadow: 1px 1px 10px #c43573;
+}
+
+.btn:active {
+    background-color: #c43573 !important;
+    color: #001c5e !important;
+    border: none !important;
+}
